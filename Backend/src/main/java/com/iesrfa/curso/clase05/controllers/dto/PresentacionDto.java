@@ -1,0 +1,10 @@
+package com.iesrfa.curso.clase05.controllers.dto;
+import lombok.Data;
+
+import java.util.UUID;
+
+@Data
+public class PresentacionDto {
+    private UUID id;
+    private String nombrePresentacion;
+}
